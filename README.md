@@ -8,5 +8,11 @@ Azure China have four regions. China North(CN), China North 2(CN2), China East(C
 ![](https://github.com/yinghli/Azure-China-Multi-Region/blob/master/DIP.jpg)
 3.	Setup ExpressRoute gateway in each VNET and using ExpressRoute circuit to communicate. vmce1 and vmce2 can communicate with dynamic IP (DIP). Customer need to pay ExpressRoute circuit charge.<br>
 ![](https://github.com/yinghli/Azure-China-Multi-Region/blob/master/ER.jpg)
+```
+Note: 
+1.	Global VNET peering is NOT available at Azure China yet.
+2.	Solution billing is just for reference, this may be changed by product group.
+3.	Different region network resource can’t setup UDR to point each other.
+```
 
 
