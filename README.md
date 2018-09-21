@@ -7,3 +7,6 @@ Azure China have four regions. China North(CN), China North 2(CN2), China East(C
 2.	Setup VPN gateway in each VNET and leverage site-to-site VPN. vmce1 and vmce2 can communicate with dynamic IP (DIP). <br>
 ![](https://github.com/yinghli/Azure-China-Multi-Region/blob/master/DIP.jpg)
 3.	Setup ExpressRoute gateway in each VNET and using ExpressRoute circuit to communicate. vmce1 and vmce2 can communicate with dynamic IP (DIP). <br>
+![](https://github.com/yinghli/Azure-China-Multi-Region/blob/master/ER.jpg)
+
+
