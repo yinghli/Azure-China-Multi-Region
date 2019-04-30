@@ -28,6 +28,7 @@ From virtual machine effectie route, we can check that two region VNET can be re
 # Use Global VNET peering
 Global VNET peering is native solution for cross region network communication. It don't need any gateway involved.<br>
 Global VNET peering charge is based on ingress and egress. ￥0.1638/GB. 
+![](https://github.com/yinghli/Azure-China-Multi-Region/blob/master/Global.jpg)
 
 ```
 Note: 
