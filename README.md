@@ -32,7 +32,7 @@ Global VNET peering charge is based on ingress and egress. ￥0.1638/GB.
 
 ```
 Note: 
-1.	Solution billing is just for reference, this may be changed by product group.
+1.  Solution billing is just for reference, this may be changed by product group.
 2.  Azure China can't setup global VNET peering to Azure Global.
 3.  UDR next hop can't point to Internal load balancer.
 ```
