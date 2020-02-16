@@ -6,7 +6,7 @@ Azure China have four regions. China North(CN), China North 2(CN2), China East(C
 If customer have virtual machine at China East(vmce1) and virtual machine at China East 2(vmce2), vmce1 and vmce2 have below communication method. Each virtual machine have public IP(PIP) and dynamic IP(DIP).<br>
 
 # Use virtual machine public IP address
-Both virtual machines have PIP, they can direct communicate with their PIP. This is also work for PaaS. The traffic will stay at Microsoft backbone network. Customer need to pay standard ingress and egress charge for this solution. This is same as before.<br>
+Both virtual machines have PIP, they can direct communicate with their PIP. This is also work for PaaS. The traffic will stay at Microsoft backbone network. Customer need to pay standard egress charge for this solution. This is same as before.<br>
 ![](https://github.com/yinghli/Azure-China-Multi-Region/blob/master/PIP.jpg)
 
 # Use IPSec VPN
